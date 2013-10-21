@@ -1,0 +1,21 @@
+main: com.toyz.chatcontrol.ChatControl
+name: ChatControl
+authors: [The_Toyz]
+description: This lets you manage how your server chat is done (No caps, spam filter etc)
+website: http://github.com/toyz/ChatControl
+version: 4
+
+commands:
+  chatcontrol:
+    description: This will display this help page
+    usage: /<command>
+
+permissions:
+    chatcontrol.bypass:
+        description: Bypass all chat control changes
+    chatcontrol.help:
+        description: Displays the current help of ChatControl
+    chatcontrol.reload:
+        description: Allows users to reload the config file
+    chatcontrol.edit:
+        description: Allows users add and remove words from the filter
